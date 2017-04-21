@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 3ff1228a6fef1834f96812bc96c1d41b
+timeCreated: 1491999714
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BlueGuy
+    100002: Body
+    100004: Chest
+    100006: Collar_L
+    100008: Collar_R
+    100010: Foot_L
+    100012: Foot_R
+    100014: ForeArm_L
+    100016: ForeArm_R
+    100018: Hand_L
+    100020: Hand_R
+    100022: Head
+    100024: Hip
+    100026: //RootNode
+    100028: Neck
+    100030: Root
+    100032: Shin_L
+    100034: Shin_R
+    100036: Shoulder_L
+    100038: Shoulder_R
+    100040: Thigh_L
+    100042: Thigh_R
+    100044: Toe_L
+    100046: Toe_R
+    400000: BlueGuy
+    400002: Body
+    400004: Chest
+    400006: Collar_L
+    400008: Collar_R
+    400010: Foot_L
+    400012: Foot_R
+    400014: ForeArm_L
+    400016: ForeArm_R
+    400018: Hand_L
+    400020: Hand_R
+    400022: Head
+    400024: Hip
+    400026: //RootNode
+    400028: Neck
+    400030: Root
+    400032: Shin_L
+    400034: Shin_R
+    400036: Shoulder_L
+    400038: Shoulder_R
+    400040: Thigh_L
+    400042: Thigh_R
+    400044: Toe_L
+    400046: Toe_R
+    4300000: BlueGuy
+    7400000: knockdown_loop_A
+    9500000: //RootNode
+    13700000: BlueGuy
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: knockdown_loop_A
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlueGuy
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Hip
+        weight: 1
+      - path: Root/Hip/Body
+        weight: 1
+      - path: Root/Hip/Body/Chest
+        weight: 1
+      - path: Root/Hip/Body/Chest/Collar_L
+        weight: 1
+      - path: Root/Hip/Body/Chest/Collar_L/Shoulder_L
+        weight: 1
+      - path: Root/Hip/Body/Chest/Collar_L/Shoulder_L/ForeArm_L
+        weight: 1
+      - path: Root/Hip/Body/Chest/Collar_L/Shoulder_L/ForeArm_L/Hand_L
+        weight: 1
+      - path: Root/Hip/Body/Chest/Collar_R
+        weight: 1
+      - path: Root/Hip/Body/Chest/Collar_R/Shoulder_R
+        weight: 1
+      - path: Root/Hip/Body/Chest/Collar_R/Shoulder_R/ForeArm_R
+        weight: 1
+      - path: Root/Hip/Body/Chest/Collar_R/Shoulder_R/ForeArm_R/Hand_R
+        weight: 1
+      - path: Root/Hip/Body/Chest/Neck
+        weight: 1
+      - path: Root/Hip/Body/Chest/Neck/Head
+        weight: 1
+      - path: Root/Hip/Thigh_L
+        weight: 1
+      - path: Root/Hip/Thigh_L/Shin_L
+        weight: 1
+      - path: Root/Hip/Thigh_L/Shin_L/Foot_L
+        weight: 1
+      - path: Root/Hip/Thigh_L/Shin_L/Foot_L/Toe_L
+        weight: 1
+      - path: Root/Hip/Thigh_R
+        weight: 1
+      - path: Root/Hip/Thigh_R/Shin_R
+        weight: 1
+      - path: Root/Hip/Thigh_R/Shin_R/Foot_R
+        weight: 1
+      - path: Root/Hip/Thigh_R/Shin_R/Foot_R/Toe_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 0bf37dc7372c57146bfc553d666ef609,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
